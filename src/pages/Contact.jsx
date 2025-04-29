@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import AltNavbar from './AltNavbar.jsx'
 import Footer from '../components/Footer/Footer'
 import Faq from '../components/Faq/Faq'
-import scanner from "../assets/how_it_Works.svg";
+import scanner from "../assets/how_it_works.svg";
 import "./Contact.css"
 import ig from "../assets/ig.svg"
 import x from "../assets/x.svg"

@@ -6,7 +6,7 @@ import "./About.css"
 import shopping from "../assets/shopping.png"
 import missionImage from "../assets/mission_pic.png"
 import visionImage from "../assets/vision_pic.png"
-import scanner from "../assets/how_it_Works.svg";
+import scanner from "../assets/how_it_works.svg";
 import who_we_are from "../assets/wo_we_are.png"
 
 const About = () => {
