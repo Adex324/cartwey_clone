@@ -1,0 +1,95 @@
+.footer {
+    background: #0d503f;
+    color: white;
+    padding: 3rem 2rem 1rem 2rem;
+    font-weight: 500;
+  }
+  
+  .footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    background: #0d503f;
+    padding: 30px;
+  }
+  
+  .footer_section {
+    flex: 1;
+    min-width: 200px;
+    background: #0d503f;
+  }
+  
+  .brand .logo {
+    font-size: 1.8rem;
+    color: #ffcc00; /* Yellow color for Cartwey */
+    margin-bottom: 1rem;
+    background: #0d503f;
+  }
+  
+  .brand p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    background: #0d503f;
+  }
+  
+  .social_icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: #ffcc00;
+    cursor: pointer;
+    background: #0d503f;    
+  }
+  .social_icons img{
+    background: #0d503f;    
+  }
+  .links h2, .contact_links h2 {
+    color: #ffcc00;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    background: #0d503f;
+  }
+  
+  .links ul, .contact_links ul {
+    list-style: none;
+    padding: 0;
+    background: #0d503f;
+  }
+  
+  .links ul li, .contact_links ul li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    background: #0d503f;
+  }
+  
+  .links ul li:hover, .contact_links ul li:hover {
+    color: #ffcc00;
+  }
+  .links ul li .footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    background: #0d503f;
+  }
+  
+  .links ul li .footer-link:hover {
+    color: #ffcc00;
+  }
+  
+  .footer_bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1rem;
+    background: #0d503f;
+  }
+  .footer_bottom p{
+    background: #0d503f;
+  }

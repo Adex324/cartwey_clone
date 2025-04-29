@@ -1,0 +1,131 @@
+ul{
+    background-color: white;
+}
+
+li{
+    list-style: none;
+    background-color: white;
+}
+
+a{
+    color: rgb(11, 1, 22);
+    text-decoration: none;
+    background-color: white;
+}
+
+a.nav-branding{
+    color:  rgba(6, 54, 17, 0.925);
+    font-weight: 800;
+    background-color: white;
+}
+.icon{
+    display: flex;
+   background-color: white;
+    
+}
+
+
+.cart_icon {
+width: 50px;
+background-color: white;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 20px 50px;
+    background-color: white;
+    gap: 5px;
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    background-color: white;
+}
+ul .nav-menu {
+    background-color: white;
+}
+.nav-branding{
+    font-size: 2rem;
+}
+.nav-button{
+    padding: 25px 45px;
+    border-radius: 20px;
+    outline:none;
+    background-color: rgba(6, 54, 17, 0.925);
+    border: none;
+    margin:10px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    width: auto;
+    cursor: pointer;
+}
+.hidden-menu{
+    display: none;
+
+}
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition:all 0.3s ease-in-out ;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(11, 1, 22);
+}
+
+@media (max-width: 968px) {
+    .hamburger{
+        display: block;
+        background-color: white;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        display:none;
+    }
+    hr.hid_hr {
+        border: none;
+        height: 1px;
+        background-color: rgb(233, 253, 239);
+      }
+    .hidden-menu.active{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: white;
+    }
+    
+    .alt_hidnav-item{
+        margin: 30px;
+    }
+    .nav-button{
+        padding: 20px 45px;
+    }
+}
+@media (max-width: 580px) {
+    .nav-button{
+        display: none;
+    }
+}

@@ -1,0 +1,62 @@
+.carousel-wrapper {
+    padding: 40px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .swiper{
+    align-items: center;
+    margin-left: 30px;
+  }
+  .carousel-container {
+    padding:  40px;
+    /* display: flex;
+    gap: 20px; */
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  /* Video styling */
+  .step-video {
+    width: 88%;
+    height: 92vh;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+   
+  }
+
+  
+  /* 🟢 Custom pagination styling */
+  .custom-pagination {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Pagination bullets */
+  .custom-pagination .swiper-pagination-bullet {
+    background-color: #999;
+    width: 22px;
+    height: 22px;
+    opacity: 1;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-pagination .swiper-pagination-bullet-active {
+    background-color: rgba(6, 54, 17, 0.925);
+
+  }
+  @media (max-width: 768px) {
+    .step-video {
+        width: 90%;
+        height: 85vh;}
+        .swiper{
+            align-items: center;
+            margin-left: 10px;
+          }
+    }
+  

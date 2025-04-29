@@ -1,0 +1,204 @@
+.get_started {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Add this for horizontal centering */
+    /* padding: 30px; */
+    gap: 30px;
+    background: #0d503f;
+    height: max-content;
+   
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px; 
+}
+
+.get_text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; 
+    padding: 0px 20px; 
+    background: #0d503f;
+    box-sizing:border-box;
+    
+    
+}
+
+.get_text {
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+    justify-content: center;
+    background: #0d503f;
+    margin-top: 60px;
+   
+    
+    
+}
+
+.get_text h1 {
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0; /* Remove default h1 margin */
+    background: #0d503f;
+}
+
+.get_text img {
+    width: 45px;
+    background: #0d503f;
+}
+
+.get_p {
+    font-size: 1.2rem; /* Slightly smaller font */
+    font-weight: 400; /* Reduced weight for paragraph */
+    line-height: 1.6; /* Better line spacing */
+    color: rgb(255, 255, 255);
+    padding: 0 40px; /* Only horizontal padding */
+    margin: 0; /* Remove default margins */
+    background: #0d503f;
+    max-width: 600px; /* Optimal line length for reading */
+
+}
+.get_p p{
+    background: #0d503f;
+}
+.stores{
+    background: #0d503f;
+    display: flex;
+    padding: 20px;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.playstore{
+    background: #0d503f;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border: none; 
+}
+.playstore img{
+    background: #0d503f;
+    width:250px;
+}
+.appstore{
+    background: #0d503f;
+    justify-content: center;
+    outline: none;
+    border: none; 
+    
+   
+}
+.appstore img{
+    background: #0d503f;
+    width:250px;
+    justify-content: center;
+    
+}
+.pic {
+    background: #0d503f;
+    width: 100%;
+    padding: 0px;
+    
+    height: fit-content;
+    
+} 
+
+ .image {
+    
+    background: #0d503f;
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1070px) {
+    .get_started{
+        padding: 0px;
+    }
+    .get_p{
+        padding: 0px;
+    }
+    .get_text h1{
+        
+        font-size: 1.7rem;
+       
+    }
+    .get_p{
+        font-size: 1rem;
+        
+     }
+     .get_text_container{
+        padding: 20px;
+     }
+     .pic {
+        background: #0d503f;
+        width: 100%;
+        object-fit: contain;
+
+    }
+    
+    .image {
+        background: #0d503f;
+        width: 60%;
+        
+    }
+
+}
+@media (max-width: 598px) {
+    .stores {
+        background: #0d503f;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        padding: 20px;
+        gap: 15px; 
+        justify-content: center;
+    }
+    
+    .playstore {
+        width: 65%;
+        justify-content: center;
+        outline: none;
+        border: none; 
+    }
+    .appstore {
+        width: 65%;
+        justify-content: center;
+        outline: none;
+        border: none;
+        margin-right: 30px;
+
+       
+    }
+    
+    .playstore img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+    }
+    .appstore img {
+        width: 100%; 
+        height: auto; 
+        display: block;
+    }
+    .image {
+       
+        background: #0d503f;
+        width: 80%;
+        
+    }
+}

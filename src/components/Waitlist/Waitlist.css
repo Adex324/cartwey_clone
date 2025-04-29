@@ -1,0 +1,215 @@
+
+.waitlist{
+    background-image: url("../../assets/waitlist_left.svg"), url("../../assets/waitlist_right.svg");
+    background-color: #0d503f;
+    height: 100vh;
+    width: 100%;
+    background-size: 40% 30%, 50% 120% ;
+    padding:70px 10%;
+    background-repeat: no-repeat, no-repeat; /* Prevent repeating */
+    background-position: left top, right top; 
+    height: 100%;
+    margin-bottom: 120px;
+}
+.wait_div{
+    padding: 5%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #f1f3f91a;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: rgba(241, 243, 249, 0.1); /* transparent white */
+  backdrop-filter: blur(12px); /* frosted glass effect */
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.join{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap:10px;
+    padding: 10px;
+    /* width:60%; */
+    border-radius: 10px;
+    background-color: gray;
+}
+.join p{
+    color: rgb(255, 255, 255);
+    background: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.join img{
+    width: 20px;
+    background-color: rgba(6, 54, 17, 0.925);
+    border-radius: 50%
+    
+}
+.wait_div h1{
+    background: none;
+    color: #FFC91F;
+    font-weight: 800;
+    font-size:2.5rem ;
+    width: 80%;
+}
+.wait_div h2{
+    background: none;
+    color:white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.form-container {
+    background-color: #0d503f;
+    width:  70%;
+    padding: 0px;
+    background: none;
+    border-radius: 20px;
+}
+.waitlist_form{
+    border-radius: 20px;
+}
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    gap:35px;
+    background-color: #0d503f;
+    padding: 70px 30px;
+
+}
+
+.name, .email {
+    background: none;
+    width: 90%;
+    text-align: left;
+}
+.name input, .email input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d8ddf0; /* Light transparency */
+    color: black;
+    font-size: 16px;
+    outline: none;
+}
+.name p , .email p{
+    background: none;
+    text-align: left;
+    color: white;
+    font-size: 0.8rem;
+   
+}
+
+.waitlist_form button {
+    color: black;
+    font-weight: 600;
+    background: none;
+    background-color: #FFC91F;
+    padding: 20px;
+    width: 90%;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+    border-radius: 15px;
+}
+.waitlist_form button img{
+    background: none;
+    width: 20px;
+}
+.waitlist_form button:hover {
+    background-color: #be9818;
+    
+}
+
+.error {
+    color: #FFC91F;
+    font-size: 0.75rem;
+    margin-top: 4px;
+    display: block;
+    background:none;
+  }
+.get{
+
+    display: flex;
+    background: none;
+    color:white;
+    font-size: 1rem;
+    gap:7px;
+}
+.get img{
+    background: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 1098px) {
+    .wait_div h1{
+        font-size:2rem ;
+        width: 90%;
+    }
+    .waitlist{
+        background-size: 50% 30%, 40% 100% ;
+        padding:70px 5%;
+        margin-bottom: 40px;
+    }
+    .wait_div{
+        padding: 10%;
+    }
+    .wait_div h2{
+        font-size: 0.9rem;
+    }
+    .name, .email {
+    
+                width: 100%;
+         }
+         .waitlist_form button {
+            
+            width: 100%;
+        }
+}
+@media (max-width: 768px) {
+    .waitlist{
+    background-size: 80% 30%, 40% 100% ;
+}
+.wait_div h1{
+    font-size:2rem ;
+    width: 90%;
+}
+.form-container {
+    background-color: #0d503f;
+    width:  100%;
+    
+}
+.get{
+    
+    font-size: 0.8rem;
+}
+
+}
+@media (max-width: 594px) {
+    .wait_div h1{
+        font-size:1.3rem ;
+        width: 100%;
+    }
+    .wait_div h2{
+        display: none;
+    }
+}
