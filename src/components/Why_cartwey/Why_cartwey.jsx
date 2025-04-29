@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Why_cartwey.css";
-import scanner from "../assets/how_it_works.svg";
+import scanner from "../..assets/how_it_works.svg";
 import user_pic from "../../assets/user_pic.svg";
 import tag_pic from "../../assets/tag_pic.svg";
 import scan_pic from "../../assets/scan_pic.svg";
