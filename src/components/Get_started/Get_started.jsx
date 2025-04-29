@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import scanner from "../../assets/white_scanner.svg";
 import playstore from "../../assets/playstore.svg";
 import appstore from "../../assets/appstore.svg";

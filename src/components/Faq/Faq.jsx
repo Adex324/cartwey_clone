@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Faq.css";
+import './Faq.css';
 import question_mark from "../../assets/question_mark.svg";
 
 const Faq = () => {
