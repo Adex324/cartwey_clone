@@ -1,5 +1,5 @@
 import React from 'react'
-import scanner from "../../assets/how_it_works.svg";
+import scanner from "../../assets/white_scanner.svg";
 import './How_it_works.css' 
 
 const How_it_works = () => {

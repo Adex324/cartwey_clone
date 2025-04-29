@@ -4,7 +4,6 @@ import playstore from "../../assets/playstore.svg";
 import appstore from "../../assets/appstore.svg";
 import get_main from "../../assets/get_main_pic.svg";
 import './Get_started.css';
-import './Get_started.css';
 
 
 const Get_started = () => {
