@@ -1,16 +1,17 @@
-import React, { useState } from 'react'
-import AltNavbar from './AltNavbar.jsx'
-import Footer from '../components/Footer/Footer'
-import Faq from '../components/Faq/Faq'
-import scanner from "../assets/how_it_works.svg";
+import React, { useState } from 'react';
 import './Contact.css';
+import AltNavbar from './AltNavbar.jsx';
+import Footer from '../components/Footer/Footer';
+import Faq from '../components/Faq/Faq';
+import scanner from "../assets/how_it_works.svg";
+
 import ig from "../assets/ig.svg";
 import x from "../assets/x.svg";
 import linkedin from "../assets/linkedin.svg" ;
 import phone_icon from "../assets/phone_icon.svg";
 import mail_icon from "../assets/mail_icon.svg";
 import location_icon from "../assets/location.svg";
-import waitlist_send from '../assets/waitlist_send.svg'
+import waitlist_send from '../assets/waitlist_send.svg';
 
 
 
