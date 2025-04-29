@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <AltNavbar />
-      <section className='About'></section>
+      
       <div className="wavy-section">
       <div className="content">
         <h1>About Us</h1>
