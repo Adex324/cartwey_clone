@@ -3,9 +3,9 @@ import AltNavbar from './AltNavbar.jsx'
 import Footer from '../components/Footer/Footer'
 import Faq from '../components/Faq/Faq'
 import scanner from "../assets/how_it_works.svg";
-import "./Contact.css"
-import ig from "../assets/ig.svg"
-import x from "../assets/x.svg"
+import './Contact.css';
+import ig from "../assets/ig.svg";
+import x from "../assets/x.svg";
 import linkedin from "../assets/linkedin.svg" ;
 import phone_icon from "../assets/phone_icon.svg";
 import mail_icon from "../assets/mail_icon.svg";

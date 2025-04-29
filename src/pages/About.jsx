@@ -2,7 +2,7 @@ import React from 'react'
 import AltNavbar from './AltNavbar.jsx'
 import Footer from '../components/Footer/Footer'
 import Faq from '../components/Faq/Faq';
-import "./About.css"
+import './About.css';
 import shopping from "../assets/shopping.png"
 import missionImage from "../assets/mission_pic.png"
 import visionImage from "../assets/vision_pic.png"

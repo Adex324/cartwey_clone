@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import "./Footer.css";
-import ig from "../../assets/ig.svg"
-import x from "../../assets/x.svg"
-import linkedin from "../../assets/linkedin.svg" 
+import './Footer.css';
+import ig from "../../assets/ig.svg";
+import x from "../../assets/x.svg";
+import linkedin from "../../assets/linkedin.svg" ;
 
 const Footer = () => {
   return (

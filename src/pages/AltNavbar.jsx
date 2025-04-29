@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import './AltNavbar.css' 
-import cart_icon from '../assets/cart-logo.svg'
+import React, { useState } from 'react';
+import './AltNavbar.css' ;
+import cart_icon from '../assets/cart-logo.svg';
 import { Link } from 'react-router-dom';
 const AltNavbar = () => {
 
