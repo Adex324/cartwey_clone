@@ -305,3 +305,16 @@
       font-weight: 500;
      }
   }
+  @media (max-width: 798px) {
+    .mis_div img{
+      width: 350px;
+    }
+    .last{
+        
+      
+      
+      width: 90%;
+     
+      
+  }
+}
