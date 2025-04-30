@@ -132,7 +132,7 @@
     text-align: center;
     padding: 20px;
     background: none;
-    font-size: 1.3rem;
+    
     
   }
  
@@ -313,7 +313,7 @@
     .last{
       width: 90%;
   }
-  .who_we_p{
+  .description{
     font-size: 0.7rem;
   }
 }
