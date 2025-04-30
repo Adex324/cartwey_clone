@@ -132,6 +132,7 @@
     text-align: center;
     padding: 20px;
     background: none;
+    font-size: 1.3rem;
     
   }
  
@@ -310,12 +311,7 @@
       width: 350px;
     }
     .last{
-        
-      
-      
       width: 90%;
-     
-      
   }
   .who_we_p{
     font-size: 0.7rem;
