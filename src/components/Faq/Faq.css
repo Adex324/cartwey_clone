@@ -71,7 +71,12 @@
     .faq_title{
         color: rgba(6, 54, 17, 0.925);
         font-size: 1.5rem;
+        
+        text-align: center;
     }
+    .faq_temp_title {
+        text-align: left;
+}
     .faq{
         display:flex;
        flex-direction: column;
@@ -83,4 +88,24 @@
     .faq_temp_title h1{
         font-size: 1.1rem;
 }
+}
+@media (max-width: 598px) {
+    .faq_title{
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .faq_main{
+        padding: 20px;
+        text-align: center;
+    }
+    .faq_temp{
+        padding: 20px;
+    }
+    .faq{
+        margin-top: 40px;
+        padding: 5px;
+        
+    }
+    
 }

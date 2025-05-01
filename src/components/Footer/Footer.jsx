@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css';
 import { Link } from 'react-router-dom';
-
+import cart_icon from '../../assets/cart-logo.svg'
 import ig from "../../assets/ig.svg";
 import x from "../../assets/x.svg";
 import linkedin from "../../assets/linkedin.svg" ;
@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer_container">
         
         <div className="footer_section brand">
-          <h1 className="logo">Cartwey</h1>
+          <h1 className="logo"><img src={cart_icon} alt="" />Cartwey</h1>
           <p>Reimagining retail for a smarter shopping experience</p>
           <div className="social_icons">
             <img src={ig} alt="" />

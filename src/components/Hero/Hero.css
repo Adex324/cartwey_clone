@@ -118,9 +118,22 @@
       font-size: 4rem;
     }
   }
-  @media (max-width: 568px) {
+  @media (max-width: 598px) {
     .hero-text h1 {
       font-size: 2rem;
     }
+    .hero-text{
+      display: flex;
+      flex-direction: column;
+      gap:25px;
+      width: 100%;
+    }
+    .hero-text p{
+      font-size:16px;   
+  }
+  .hero{
+    margin-top: 25px;
+    padding: 20px;
+  }
   }
   

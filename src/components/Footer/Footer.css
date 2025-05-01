@@ -23,11 +23,16 @@
   
   .brand .logo {
     font-size: 1.8rem;
-    color: #ffcc00; /* Yellow color for Cartwey */
+    color: #ffffff; /* Yellow color for Cartwey */
     margin-bottom: 1rem;
     background: #0d503f;
+    display: flex;
+    
   }
-  
+  .logo img{
+    background: none;
+    width: 40px;
+  }
   .brand p {
     margin-bottom: 1rem;
     line-height: 1.5;
@@ -92,4 +97,11 @@
   }
   .footer_bottom p{
     background: #0d503f;
+  }
+  @media (max-width:598px){
+    .footer_container{
+      text-align: left;
+      padding: 0px;
+    }
+    
   }

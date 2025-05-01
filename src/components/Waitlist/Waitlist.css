@@ -212,4 +212,19 @@ form {
     .wait_div h2{
         display: none;
     }
+    .waitlist_form button{
+        padding: 15px;
+        gap:2px;
+        width: 90%;
+    }
+    .waitlist_form button img{
+
+        width: 25px;
+    }
+    .get{
+
+        
+        font-size: 0.6rem;
+        gap:5px;
+    }
 }

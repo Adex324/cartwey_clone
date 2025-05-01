@@ -217,10 +217,20 @@
         grid-template-columns: 1fr;
         padding: 0px;
     }
+    .why_text img{
+        width: 35px;
+    }
     .why_card{
         padding: 10px;
     }
     .video_div{
         padding:0px;
 }
+}
+@media (max-width: 598px) {
+    .why_cartwey{
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        }
 }
