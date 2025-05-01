@@ -183,9 +183,11 @@ h2.in_touch{
     
     }
     .contact_text{
-        font-size: 1.2rem;
         align-items: center;
         text-align: center;
+    }
+    .contact_text h1{
+      font-size: 1.5rem;
     }
     .contact_p{
       text-align: center;
@@ -227,4 +229,21 @@ h2.in_touch{
     .touch_grid{
         gap:70px;
     }
+}
+@media (max-width:798px){
+  .contact_text h1{
+    font-size: 1.8rem;
+
+  }
+  .contact_text img{
+    width: 25px;
+  }
+  
+  .contact_p p{
+    font-size: 1.1rem;
+  }
+  .contact{
+    padding: 15px;
+}
+
 }
