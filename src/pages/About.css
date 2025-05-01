@@ -303,6 +303,7 @@
 }
 @media (max-width: 598px){
   .description{
-    font-size: 0.5rem;
+    padding: 30px;
+    font-size: 0.7rem;
   }
 }
