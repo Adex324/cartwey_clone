@@ -303,7 +303,10 @@
 }
 @media (max-width: 598px){
   .description{
-    padding: 30px;
-    font-size: 0.7rem;
+    padding: 40px;
+    font-size: 1rem;
+  }
+  .who_we_p{
+    padding: 40px;
   }
 }
