@@ -3,12 +3,12 @@ import './Navbar.css'
 import cart_icon from '../../assets/cart-logo.svg'
 import { Link } from 'react-router-dom';
 const Navbar = () => {
-    const handleScroll= () => {
-        const get_element = document.getElementById('get_started')
-    if (get_element){
-      get_element.scrollIntoView({behavior:'smooth'})
-    }
-    }
+    const handleScrollToGetStarted = () => {
+        const element = document.getElementById('get_started');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
   const [isActive, setIsActive]=useState('')
 
   const toggleMenu = () => {
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </li>
               
             </ul>
-            <a href="#get_started" className = "nav-button" onClick={handleScroll}>
+            <a href="#get_started" className = "nav-button" onClick={handleScrollToGetStarted}>
             Get Started</a>
             
                 

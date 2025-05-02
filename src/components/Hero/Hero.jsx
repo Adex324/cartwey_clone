@@ -4,16 +4,19 @@ import waitlist_arrow from  '../../assets/down_arrow.svg'
 import service_cards from '../../assets/service-cards.svg'
 import './Hero.css'
 const Hero = () => {
-  const handleScroll= () => {
-    const element = document.getElementById('waitlist')
-    if (element){
-      element.scrollIntoView({behavior:'smooth'})
+  const handleScrollToWaitlist = () => {
+    const element = document.getElementById('waitlist');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-    const get_element = document.getElementById('get_started')
-    if (get_element){
-      get_element.scrollIntoView({behavior:'smooth'})
+  };
+  
+  const handleScrollToGetStarted = () => {
+    const element = document.getElementById('get_started');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-  }
+  };
   return (
     <section className='hero'>
         <img src={cart_icon} alt="" className="hero_logo" />
@@ -26,11 +29,11 @@ const Hero = () => {
        </div>
        <div className="hero_buttons">
         
-            <a href="#get_started" className = "get_started_button" onClick={handleScroll}>
+            <a href="#get_started" className = "get_started_button" onClick={handleScrollToGetStarted}>
             Get Started</a>
             
             <div className="join_waitlist">
-              <a href="#waitlist">Join waitlist</a><img src={waitlist_arrow} alt="" onClick={handleScroll}/>
+              <a href="#waitlist">Join waitlist</a><img src={waitlist_arrow} alt="" onClick={handleScrollToWaitlist}/>
 
             </div>
           

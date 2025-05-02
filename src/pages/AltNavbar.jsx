@@ -9,6 +9,12 @@ const AltNavbar = () => {
   const toggleMenu = () => {
     setIsActive(!isActive);
   }
+  const handleScrollToGetStarted = () => {
+    const element = document.getElementById('get_started');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div>
       <header>
@@ -30,7 +36,7 @@ const AltNavbar = () => {
                 </li>
               
             </ul>
-            <a href="#get_started" className = "nav-button">
+            <a href="#get_started" className = "nav-button" onClick={handleScrollToGetStarted}>
             Get Started</a>
             
                 
