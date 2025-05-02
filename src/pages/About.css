@@ -316,5 +316,18 @@
   .mission_text{
     gap:10px;
   }
+  .last{
+    width: 100%;
+    padding:10px 2%;
+}
+.last h1{
+      
+  font-size: 1.2rem;
+ 
+ }
+ .last p{
+  background: none;
+  font-size: 0.9rem;
+}
   
 }
