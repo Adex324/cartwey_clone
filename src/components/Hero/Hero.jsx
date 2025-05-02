@@ -9,6 +9,10 @@ const Hero = () => {
     if (element){
       element.scrollIntoView({behavior:'smooth'})
     }
+    const get_element = document.getElementById('get_started')
+    if (get_element){
+      get_element.scrollIntoView({behavior:'smooth'})
+    }
   }
   return (
     <section className='hero'>
@@ -22,7 +26,7 @@ const Hero = () => {
        </div>
        <div className="hero_buttons">
         
-            <a href="#get_started" className = "get_started_button">
+            <a href="#get_started" className = "get_started_button" onClick={handleScroll}>
             Get Started</a>
             
             <div className="join_waitlist">
