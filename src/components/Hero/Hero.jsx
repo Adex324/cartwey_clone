@@ -22,7 +22,7 @@ const Hero = () => {
        </div>
        <div className="hero_buttons">
         
-            <a href="#getstarted" className = "get_started_button">
+            <a href="#get_started" className = "get_started_button">
             Get Started</a>
             
             <div className="join_waitlist">

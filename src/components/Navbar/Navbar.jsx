@@ -32,7 +32,7 @@ const Navbar = () => {
                 </li>
               
             </ul>
-            <a href="#getstarted" className = "nav-button">
+            <a href="#get_started" className = "nav-button">
             Get Started</a>
             
                 
