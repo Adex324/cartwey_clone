@@ -318,16 +318,17 @@
   }
   .last{
     width: 100%;
-    padding:10px 2%;
+    padding:15px 2%;
+    gap:10px;
 }
 .last h1{
       
-  font-size: 1.2rem;
+  font-size: 1.3rem;
  
  }
  .last p{
   background: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
   
 }
