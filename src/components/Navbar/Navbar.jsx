@@ -38,7 +38,7 @@ const Navbar = () => {
                 </li>
               
             </ul>
-            <a href="#get_started" className = "nav-button" onClick={handleScrollToGetStarted}>
+            <a  className = "nav-button" onClick={handleScrollToGetStarted}>
             Get Started</a>
             
                 

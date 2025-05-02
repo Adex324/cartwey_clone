@@ -29,7 +29,7 @@ const Hero = () => {
        </div>
        <div className="hero_buttons">
         
-            <a href="#get_started" className = "get_started_button" onClick={handleScrollToGetStarted}>
+            <a  className = "get_started_button" onClick={handleScrollToGetStarted}>
             Get Started</a>
             
             <div className="join_waitlist">
