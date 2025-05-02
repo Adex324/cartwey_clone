@@ -33,7 +33,7 @@ const Hero = () => {
             Get Started</a>
             
             <div className="join_waitlist">
-              <a href="#waitlist">Join waitlist</a><img src={waitlist_arrow} alt="" onClick={handleScrollToWaitlist}/>
+              <a onClick={handleScrollToWaitlist}>Join waitlist</a><img src={waitlist_arrow} alt="" onClick={handleScrollToWaitlist}/>
 
             </div>
           
